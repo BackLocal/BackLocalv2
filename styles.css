@@ -43,7 +43,9 @@ button{
   
 .logingroup{
     padding-right:70px;
+    
 }
+
 
 .spacing1{
     padding-left: 15px;
@@ -200,11 +202,27 @@ button{
     font-weight: 700;
     text-align: center;
   }
-.role{
+
+
+
+
+  @media (max-width: 800px) {
+    .intro {
+      font-size: 14px;
+    }
+  }
+  .role{
     color:#6E6E6E;
     text-align: center;
 }
-  
+
+
+@media (max-width: 1200px) {
+  .card-body {
+    font-size: 15px;
+  }
+}
+
   @media (max-width: 1200px) {
     .flex-container1 {
       flex-direction: column;
@@ -228,6 +246,7 @@ button{
  
     }
   }
+
   @media (max-width: 800px) {
     .local {
       justify-content: center;
@@ -265,6 +284,13 @@ button{
       justify-content: center;
       flex-direction: column;
       width: 100%;
+      
  
+    }
+  }
+
+  @media (max-width: 700px) {
+    .pricing {
+     display: none;
     }
   }
